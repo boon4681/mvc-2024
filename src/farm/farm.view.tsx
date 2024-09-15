@@ -55,6 +55,7 @@ export const GoatPage: FC = () => {
 
 export const AnimalNotFoundPage: FC = () => {
     return <Layout>
+        <a href="/">Back to Home</a>
         <h1 class="error">Animal not found</h1>
     </Layout>
 }
