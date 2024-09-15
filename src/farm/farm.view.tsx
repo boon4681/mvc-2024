@@ -34,7 +34,7 @@ export const HomePage: FC<{ message: any }> = ({ message }) => {
         <Layout>
             <form class={formCss} method="post" action="/process">
                 <h1>Cow Milking Program</h1>
-                <input type="text" name="id" placeholder="Enter 8-digit animal ID" pattern="[1-9]\d{7}" required />
+                <input type="text" name="id" placeholder="Enter 8-digit animal ID" required />
                 <button type="submit">Process Animal</button>
             </form>
         </Layout>
