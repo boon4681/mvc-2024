@@ -1,0 +1,17 @@
+{
+  "name": "mvc-2024",
+  "scripts": {
+    "dev": "tsx watch src/index.tsx"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.2",
+    "@hono/zod-validator": "^0.2.2",
+    "csv": "^6.3.10",
+    "hono": "^4.6.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
