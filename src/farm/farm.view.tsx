@@ -55,7 +55,7 @@ export const GoatPage: FC = () => {
 
 export const AnimalNotFoundPage: FC = () => {
     return <Layout>
-        <h1 class="error">AnimalNotFound</h1>
+        <h1 class="error">Animal not found</h1>
     </Layout>
 }
 
