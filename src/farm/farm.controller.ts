@@ -7,8 +7,7 @@ import { FarmModel } from "./farm.model";
 export class FarmContoller {
     constructor(
         protected model: FarmModel
-    ) {
-    }
+    ) { }
 
 
     processAnimal(input: any) {
